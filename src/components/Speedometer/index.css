@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.bgContainer {
+  background-color: #07080c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 130px;
+  width: 250px;
+}
+
+@media screen and (min-width: 567px) {
+  .img {
+    height: 250px;
+    width: 560px;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 28px;
+  font-weight: 900;
+  color: #ffffff;
+}
+@media screen and (min-width: 567px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.subHeading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 800;
+  color: #ffffff;
+}
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #cbd5e1;
+  margin-bottom: 40px;
+}
+
+.btn {
+  font-family: 'Roboto';
+  border: none;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 11px 21px 11px;
+  margin: 5px;
+}
+.brake {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 2px solid #94a3b8;
+  padding: 9px 19px 9px;
+}
